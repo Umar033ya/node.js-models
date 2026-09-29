@@ -1,0 +1,16 @@
+{
+  "name": "registration-app-server",
+  "version": "1.0.0",
+  "description": "Express API that stores users and avatar Buffers in memory",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "multer": "^2.4.0"
+  }
+}
